@@ -10,7 +10,7 @@ public class Chatbot {
     private static float averageTimePerPrompt = 0f;
     private static int averageTokensPerPrompt = 0;
     private static int prompts = 0;
-    private static final String APIKEY = "you wish haha";
+    private static final String APIKEY = System.getenv"OPENAI_API_KEY";
 
     public static void main(String[] args) {
         System.out.println();
